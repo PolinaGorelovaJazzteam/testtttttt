@@ -1,12 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
+import { testLib } from '@test/test-lib';
 
-import NxWelcome from './nx-welcome';
-
+let t = testLib()
 export function App() {
   return (
     <div>
-      <NxWelcome title="testtttttt" />
+      {t}
     </div>
   );
 }
