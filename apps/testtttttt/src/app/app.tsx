@@ -5,6 +5,7 @@ let t = testLib()
 export function App() {
   return (
     <div>
+      Хохохохоххохооххох
       {t}
     </div>
   );
